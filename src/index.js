@@ -1,12 +1,33 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import * as serviceWorker from './serviceWorker';
+import { HashRouter as Router, Switch, Route } from 'react-router-dom';
+
+import Header from './components/Header';
+import Tabs from './components/Tabs';
+import Offer from './components/pages/Offer';
+
+import './styles.css';
+
+class App extends React.Component {
+    render() {
+        return (
+            <>
+                <Header /> 
+                
+                <div className="main-container">
+                    <Tabs />
+
+                    <div className="container">
+                        <Router basename={process.env.PUBLIC_URL}>
+                            <Switch>
+                                <Route path="/offer/:id" component={Offer} />
+                            </Switch>
+                        </Router>
+                    </div>
+                </div>
+            </>
+        )
+    }
+}
 
 ReactDOM.render(<App />, document.getElementById('root'));
-
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
-serviceWorker.unregister();
