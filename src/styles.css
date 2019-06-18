@@ -440,3 +440,17 @@ ul.nav-tabs+hr {
 .promo .fees {
     margin-bottom: 10px;
 }
+
+.promo table {
+  width: 500px;
+  margin-bottom: 20px;
+}
+
+.promo table td {
+  text-align: center;
+  border: 1px solid #666;
+}
+
+.promo table tr:first-child td, .promo table td:first-child {
+  background-color: rgb(104, 203, 218)
+}
