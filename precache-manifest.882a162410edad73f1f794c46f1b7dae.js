@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "77d9c22959dc5e6221ff394df7a3c641",
+    "revision": "34af046b73908e5fbe1b978479dacc20",
     "url": "/sales-assist-preview/index.html"
   },
   {
-    "revision": "38710a0ba5d29a9eb7de",
+    "revision": "9c49301c2a201bbd8eae",
     "url": "/sales-assist-preview/static/css/main.9144bf3e.chunk.css"
   },
   {
-    "revision": "d6f5d685fa0650e8e373",
-    "url": "/sales-assist-preview/static/js/2.fa478bda.chunk.js"
+    "revision": "4dc7df07f923a12afa8c",
+    "url": "/sales-assist-preview/static/js/2.4a0b3f53.chunk.js"
   },
   {
-    "revision": "38710a0ba5d29a9eb7de",
-    "url": "/sales-assist-preview/static/js/main.eb184965.chunk.js"
+    "revision": "9c49301c2a201bbd8eae",
+    "url": "/sales-assist-preview/static/js/main.6c90aae5.chunk.js"
   },
   {
     "revision": "bf425944f42ef0e706cb",
@@ -54,5 +54,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "dab63a1541d9d9914c40d1387a45aac8",
     "url": "/sales-assist-preview/static/media/logo.dab63a15.jpg"
+  },
+  {
+    "revision": "7d16be99e29781706545fbf7a01f5f04",
+    "url": "/sales-assist-preview/static/media/pricing.7d16be99.png"
   }
 ]);
