@@ -37,7 +37,7 @@ class Offer extends React.Component {
         const scope = this.state.entry.fields.offer.fields.pricing.filter(price => price.fields.product === product);
 
         scope.forEach(s => {
-            columns.push(<td>${numeral(Math.max(s.fields.basePrice - s.fields.discount, 0)).format('0.00')}</td>);
+            columns.push(<td>${numeral(Math.max(s.fields.basePrice - this.state.entry.fields.offer.fields.discount, 0)).format('0.00')}</td>);
         })
 
         return columns;
