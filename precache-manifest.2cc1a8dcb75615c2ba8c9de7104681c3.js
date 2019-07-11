@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "34af046b73908e5fbe1b978479dacc20",
+    "revision": "9fb857ac67c59f5eaec2ff00155d36c5",
     "url": "/sales-assist-preview/index.html"
   },
   {
-    "revision": "9c49301c2a201bbd8eae",
+    "revision": "c53faf42fc0c7e83dd72",
     "url": "/sales-assist-preview/static/css/main.9144bf3e.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/sales-assist-preview/static/js/2.4a0b3f53.chunk.js"
   },
   {
-    "revision": "9c49301c2a201bbd8eae",
-    "url": "/sales-assist-preview/static/js/main.6c90aae5.chunk.js"
+    "revision": "c53faf42fc0c7e83dd72",
+    "url": "/sales-assist-preview/static/js/main.aa721b07.chunk.js"
   },
   {
     "revision": "bf425944f42ef0e706cb",
