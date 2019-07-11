@@ -61,7 +61,7 @@ class Offer extends React.Component {
 
                     <div className="col-lg-6">
                         <h1>{this.state.entry.fields.title}</h1>
-                        <p>{this.state.entry.fields.description}</p>
+                        <p>{this.state.entry.fields.description.replace("{price}", numeral(this.state.entry.fields.offer.fields.discount).format('0'))}</p>
                         
                         <table>
                             <tbody>
